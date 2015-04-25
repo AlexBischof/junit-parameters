@@ -18,9 +18,9 @@ public class NaivParameterizedCalculatorAddTest {
             { Integer.valueOf(1), Integer.valueOf(2), 3 } });
     }
 
-    public int x;
-    public int y;
-    public int expected;
+    private int x;
+    private int y;
+    private int expected;
 
     public NaivParameterizedCalculatorAddTest(int x, int y, int expected) {
         this.x = x;
